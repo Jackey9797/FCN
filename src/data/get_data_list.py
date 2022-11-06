@@ -134,7 +134,7 @@ def create_voc_train_aug_lst_txt():
 
 
 def get_data_list(data_dir):
-    init_path(data_dir) 
+    init_path(data_dir)
     print('converting voc color png to gray png ...')
     conv_voc_colorpng_to_graypng()
     print('converting done.')
